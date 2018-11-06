@@ -7,5 +7,5 @@ def sum (alist, L=[]):
         return sum(alist)
     return L[0]
 alist = [3,4,4,5]
-s=sum(alist)
-print(s)
+x=sum(alist)
+print(x)

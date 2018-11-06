@@ -21,5 +21,5 @@ def merge_sort(alist):
     right = merge_sort(alist[mid:])
     return merge(left, right)
 
-alist = [20, 13, 3, 6, 42, 22, 11, 8, 36, 28]
+alist = [21, 13, 3, 6, 42, 22, 11, 8, 36, 28]
 print(merge_sort(alist))

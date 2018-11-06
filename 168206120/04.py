@@ -15,5 +15,5 @@ def partition(alist, l, r):
     alist[i + 1], alist[r] = alist[r], alist[i+1]
     return i + 1
 
-alist = [12, 4, 23, 3, 2, 11, 65, 22, 8]
+alist = [21, 4, 23, 3, 2, 11, 65, 22, 8]
 print(quick_sort(alist,0,len(alist)-1))
